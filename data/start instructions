@@ -1,0 +1,8 @@
+1-  displays latest version + json-server documentation: https://www.npmjs.com/package/json-server
+2-  add following line to your package.json -> dependency:
+      "dependencies": {
+          "json-server": "^0.17.1"
+      }
+3-  The common way to start the json-server doesnt work.
+    type "npx" before the command:
+        - npx json-server --watch ./data/db.json
